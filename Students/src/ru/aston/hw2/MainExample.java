@@ -8,6 +8,7 @@ import static ru.aston.hw2.Student.readStudents;
 public class MainExample {
 
     public static void main(final String[] args) {
+
         try {
             final List<Student> students = readStudents("Students.txt");
 
