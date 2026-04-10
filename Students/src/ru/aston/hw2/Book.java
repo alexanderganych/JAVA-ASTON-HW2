@@ -25,7 +25,7 @@ public class Book {
 
     @Override
     public String toString() {
-        return "(" + title + ", стр." + pages + ", " + year + " г.)";
+        return String.format("(%s, стр.%d, %d г.)", title, pages, year);
     }
 
 }
